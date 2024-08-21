@@ -174,13 +174,7 @@ td{
   border-radius: 4px;
   opacity: 1;
 }
-.stt:hover {
-  opacity: 0.2;
-}
 
-.stt:active {
-  opacity: 1;
-}
 
 #image-container {
             text-align: center;
