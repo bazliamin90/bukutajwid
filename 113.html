@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tajwidul Quran</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
 	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
     <script src="header.js"></script>
 </head>
 
 <body>
 
-<header-component></header-component>
+<!--<header-component></header-component>-->
+
+<div class="header">
+	<ul id="nav">
+		
+		<li>
+		<a href="index.html">🏠︎</a>
+		</li>
+
+		<li>
+		<a>|</a>
+		</li>	
+		
+		<div class="dropdown">
+        <input type="checkbox" id="dropdown-toggle">
+        <label for="dropdown-toggle" class="dropdown-button">Select page ▼</label>
+        <div class="dropdown-content">
+            <ol>
+				<li><a href="110.html">110</a></li>
+				<li><a href="111.html">111</a></li>
+				<li><a href="112.html">112</a></li>
+				<li><a href="113.html">113</a></li>
+				<li><a href="114.html">114</a></li>
+				<li><a href="115.html">115</a></li>
+				<li><a href="116.html">116</a></li>
+				<li><a href="117.html">117</a></li>
+				<li><a href="118.html">118</a></li>
+				<li><a href="119.html">119</a></li>
+            </ol>
+        </div>
+    </div>
+		
+	</ul>
+</div>
     
 <header>
     <h1>Tajwidul Quran</h1>
@@ -22,9 +56,9 @@
     
 	<center>
 	<div class="centered">
-        <a href="112.html">Previous</a>
+        <a href="112.html" class="a-red">Previous</a>
 		||
-		<a href="114.html">Next</a>
+		<a href="114.html" class="a-red">Next</a>
 	</div>
 	</center>
     
@@ -52,15 +86,18 @@
 	
 	<center>
 	<div class="centered">
-        <a href="112.html">Previous</a>
+        <a href="112.html" class="a-red">Previous</a>
 		||
-		<a href="114.html">Next</a>
+		<a href="114.html" class="a-red">Next</a>
 	</div>
 	</center>
 	
 </main>
 
 <a href='#' class="stt" title="scroll to top">↑</a>
+
+<a href="112.html" class="prevar">←</a>
+<a href="114.html" class="nexar">→</a>
 
 </body>
 
