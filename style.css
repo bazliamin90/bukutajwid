@@ -176,6 +176,32 @@ td{
   box-shadow: 0.1rem 0.1rem black;
 }
 
+.nexar {
+  position: fixed;
+  bottom: 50%;
+  right: 10px;
+  z-index: 9;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid black;
+  box-shadow: 0.1rem 0.1rem black;
+}
+
+.prevar {
+  position: fixed;
+  bottom: 50%;
+  left: 10px;
+  z-index: 9;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid black;
+  box-shadow: 0.1rem 0.1rem black;
+}
+
 #image-container {
             text-align: center;
             margin-top: 20px;
